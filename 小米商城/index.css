@@ -1,0 +1,64 @@
+/*总体设置*/
+header,nav,#banner,section,#mouvies,#Customer,#footer{
+  width: 1230px;
+  margin: 0 auto;
+}
+
+html{
+  background: #f5f5f5;
+}
+
+body{
+  font: 14px "microsoft yahel",Arial,Helvetica,sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+input{
+  outline: none;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ff6700;
+  text-decoration: none;
+}
+
+.rt{
+  float: right;
+}
+
+.lt{
+  float: left;
+}
+/********项目**css动画********/
+
+section li{
+  transition: all 0.2s linear;
+}
+
+section li:hover{
+  transform: translate3d(0,-2px,0);
+  z-index: 2;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+#movies ul li:hover{
+  transform: rotateY(180deg);
+}
+
+#movies ul li{
+  transition: all 0.6s ease 0s;
+}
