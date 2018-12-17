@@ -184,25 +184,6 @@
     width: 1226px;
   }
   
-.shoujibox-lxy{
-    position: relative;
-    height: 58px;
-  }
-  
-.shouji-lxy{
-    margin: 0;
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 58px;
-    color: #333;
-  }
-  
-.shoujiyoubian-lxy{
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  
 .chakanquanbu{
     font-size: 16px;
     line-height: 58px;
@@ -210,21 +191,6 @@
     transition: all .4s
   }
   
-  .shouji-1 img{
-    height: 614px;
-    width: 234px;
-  }
-  
-  .shoujiyige{
-    position: relative;
-    z-index: 1;
-    float: left;
-    width: 234px;
-    margin-left: 14px;
-    margin-bottom: 14px;
-    background: #fff;
-    transition: all .2s linear;
-  }
   
 .yitu{
     width: 160px;
@@ -251,3 +217,4 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px
   }
+
