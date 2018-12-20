@@ -184,14 +184,6 @@
     width: 1226px;
   }
   
-.chakanquanbu{
-    font-size: 16px;
-    line-height: 58px;
-    color: #424242;
-    transition: all .4s
-  }
-  
-  
 .yitu{
     width: 160px;
     height: 160px;
@@ -218,3 +210,92 @@
     margin-inline-end: 0px
   }
 
+  .last-gwh{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .shoujibox01-gwh-35{
+    position: relative;
+    height: 58px;
+  }
+  .shoujibox02-gwh-36{
+    background: #f5f5f5
+  }
+  .shouji-gwh{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+  }
+  .shoujiyoubian-gwh{
+    position: absolute;
+    top: 10;
+    right: 0;
+  }
+  .chakanquanbu{
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+    transition: all .4s
+  }
+  .shoujiqiyu-gwh{
+    width: 992px;
+    float: left;
+    margin-top: -630px;
+    margin-left: 200px;
+    min-height: 1px;
+  }
+  .shoujiyemian{
+    margin: 0 0 -14px -14px;
+    width: 992px;
+    height: 614px;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .shoujidange{
+    position: relative;
+      z-index: 1;
+      float: left;
+      width: 234px;
+      margin-left: 14px;
+      margin-bottom: 14px;
+      background: #fff;
+      list-style-type: none;
+      height: 260px;
+      padding: 20px 0;
+      display: list-item;
+      text-align: -webkit-match-parent;
+  }
+  .shouji-1 img{
+    height: 614px;
+    width: 234px;
+  }
+  .shoujiyige{
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    transition: all .2s linear;
+  }
+  .yitu .yt img {
+    width: 160px;
+    height: 160px;
+    margin-left: 35;
+  }
+  .yt{
+    color: #757575;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
