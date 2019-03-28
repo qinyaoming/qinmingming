@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  window.onload =function () {
+  function makePhrases() {
+    var time =['6点', '7点', '8点', '9点', '10点', '11点', '12点', '13点', '14点', '15点']
+    var person =['杨克琴', '郭懿婷', '陈欣楚', '杨心怡', '吴倩雯', '龚佳怡', '李可新', '陆心怡',
+    '张璐', '潘梦情', '田金丰', '葛梦蝶', '刘祎婷']
+    var activity =['在学校学习', '在操场跑步', '在食堂吃饭', '在教室打游戏']
+    var biaodian =['.', '!'] 
+
+    //var timerandnumber = chooserandom(time)
+    //var personrandnumber = chooserandom(person)
+    //var activityrandnumber = chooserandom(activity)
+    //var biaodianrandnumber = chooserandom(biaobian)
+
+    var phrase = chooserandom(time) + '' + chooserandom(person) + '' + chooserandom(activity) + '' + chooserandom(biaodian)
+    document.write(phrase)
+
+    function chooserandom(array) {
+      return array[Math.floor(Math.random() * array.length)]
+    }
+  }
+    makePhrases()
+
+  }
+  
+
+  </script>
+</body>
+</html>

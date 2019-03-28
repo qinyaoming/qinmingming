@@ -8,17 +8,24 @@
 </head>
 <body>
   <script>
-  function makePhrases() {
-    var words1 =['1/1', '1/2', '1/3', '1/4', '1/5', '1/6', '1/7', '1/8', '1/9','1/10',]
-    var words2 =['jia', 'xuexiao','jiaoshi','shitang']
-    var words3 =['陈泽宇', '杨克琴', '郭懿婷', '陈欣楚', '杨心怡', '吴倩雯', '龚佳怡', '李可新', '陆心怡',
-      '张璐', '潘梦情', '田金丰', '葛梦蝶', '刘祎婷', '沈宇峰', '王达', '李一鸣', '徐志豪', '孙睿褀', '徐杨',
-      '濮徐杰', '陈卓豪', '王昱', '林超凡', '孔易飞', '王诚礼', '杨凤旗', '王韫韬', '吴策', '顾强', '顾强', '薛宇成',
-      '俞浩', '陈李鹏', '徐超', '顾伟豪', '王钦鹏', '孙权', '潘铖', '朱铭杨', '张程', '杨吉']
+  function Phrases() {
+    var time =['6点', '7点', '', '1/4', '1/5', '1/6', '1/7', '1/8', '1/9', '1/10']
+    var person =['杨克琴', '郭懿婷', '陈欣楚', '杨心怡', '吴倩雯', '龚佳怡', '李可新', '陆心怡',
+      '张璐', '潘梦情', '田金丰', '葛梦蝶', '刘祎婷']
+    var activity =['在学校学习', '在操场跑步', '在食堂吃饭', '在教室打游戏']
+    var biaodian =['.', '!'] 
 
-      var rand1 = Math.floor
+    var timerandnumber = Math.floor(Math.random() * time.length)
+    var personrandnumber = Math.floor(Math.random() * person.length)
+    var activityrandnumber = Math.floor(Math.random() * activity.length)
+    var biaodianrandnumber = Math.floor(Math.random() * biaodian.length)
+
+    var allphrase = time[timerandnumber] + ' ' + person[personrandnumber] + ' ' + activity[activityrandnumber] + ' ' + biaodian[biaodianrandnumber]
+    alert(allphrase)
   }
   
+  Phrases()
+
   </script>
 </body>
 </html>
