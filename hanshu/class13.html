@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var highest = 0
+    var j = 0
+    var x = []
+    var scores = [90, 100, 84, 60, 100, 75, 100, 43, 58, 100]
+    for (var i=0; i < scores.length; i++) {
+      if (scores[i] > highest) {
+        highest = scores[i]
+        j = 0
+        x = []
+        x[j] = i
+      }else if (scores[i] == highest) {
+        j++
+        x[j] = i
+      }
+    }
+
+    for (var s = 0; s < x.length; s++) {
+      document.write ('最大值：' + highest + '最大值的下标：' + x[s] + '<br>')
+    }
+  </script>
+</body>
+</html>
